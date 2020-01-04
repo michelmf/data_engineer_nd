@@ -13,12 +13,12 @@ CREATE TABLE IF NOT EXISTS songplays
     (songplay_id INT PRIMARY KEY, 
      user_id INT NOT NULL REFERENCES users(user_id), 
      artist_id VARCHAR REFERENCES artists(artist_id), 
-     start_time TIMESTAMP NOT NULL REFERENCES time(start_time),
-     song_id VARCHAR NOT NULL REFERENCES songs(song_id),
+     start_time TIMESTAMP REFERENCES time(start_time),
+     song_id VARCHAR REFERENCES songs(song_id),
      session_id INT, 
      level VARCHAR, 
-     location INT, 
-     user_agent INT)
+     location VARCHAR, 
+     user_agent VARCHAR)
 """)
 
 user_table_create = ("""
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS artists
     (artist_id VARCHAR PRIMARY KEY,
      name VARCHAR NOT NULL,
      location VARCHAR, 
-     latitute FLOAT,
+     latitude FLOAT,
      longitude FLOAT);
 """)
 
@@ -43,7 +43,7 @@ song_table_create = ("""
 CREATE TABLE IF NOT EXISTS songs
     (song_id VARCHAR PRIMARY KEY, 
      title VARCHAR NOT NULL,
-     artist_id VARCHAR REFERENCES artists(artist_id),
+     artist_id VARCHAR,
      year INT,
      duration FLOAT NOT NULL);
 """)
@@ -96,7 +96,7 @@ artist_table_insert = ("""
 
 time_table_insert = ("""
 INSERT INTO time 
-    (start_time, weekday, day, hour, week, month, year) 
+    (start_time, hour, day, week, month, year, weekday) 
     VALUES (%s, %s, %s, %s, %s, %s, %s)
     ON CONFLICT (start_time) 
     DO NOTHING;
