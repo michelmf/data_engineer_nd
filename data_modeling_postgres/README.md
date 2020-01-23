@@ -60,7 +60,7 @@ The image below shows the relation between tables.
 Some files are included in this project.
 
 1. sql_queries.py    - Python file where all the queries for CRUD operations are defined.
-2. create_tables.py  - Script that creates the connection to PostgreSQL database and execute the queries defined in sql_queries.py file
+2. create_tables.py  - Script that creates the connection to PostgreSQL database and executes the queries defined in sql_queries.py file
 3. etl.py            - Script which executes all the ETL process.
 4. etl.ipynb         - Jupyter Notebook used to validate the ETL needed steps for correct extraction, transformation and load of data into database
 5. test.ipynb        - Jupyter Notebook for validation of database operations. Used to check the correctness of performed operations
@@ -77,6 +77,3 @@ The steps needed to create and populate the tables are:
 1. Open the terminal and execute the _create_tables.py_ script (_python create_tables.py_)
 2. After executing the script above, you should execute the _etl.py_ file (_python etl.py_)
 3. In order to check the data inserted into PostgreSQL, you can execute the notebook called _test.ipynb_
-
-
-
