@@ -26,10 +26,10 @@ In the sections below I briefly describe each technology and project I developed
 
 This is the section of udacity Data Engineering Nanodegree, where students have the opportunity to practice the following concepts learned during the classes:
 
-    Data modeling
-    Database Schemas (snowflake/star)
-    Creation of ETL pipelines
-    Database CRUD
+* Data modeling
+* Database Schemas (snowflake/star)
+* Creation of ETL pipelines
+* Database CRUD
 
 This section have two modeling projects.
 
