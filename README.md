@@ -24,14 +24,14 @@ In the sections below I briefly describe each technology and project I developed
 
 ## Section 1 - Data modeling using PostgreSQL and Apache Cassandra
 
-This is the section of udacity Data Engineering Nanodegree, where students have the opportunity to practice the following concepts learned during the classes:
+In this section of Data Engineering Nanodegree, students have the opportunity to practice the following concepts learned during the classes:
 
 * Data modeling
 * Database Schemas (snowflake/star)
 * Creation of ETL pipelines
 * Database CRUD
 
-This section have two modeling projects.
+This section have two hands-on projects, where we exercise database modeling, SQL and Python programming. 
 
 The first project involves a creation of a PostgreSQL database design to help a fake startup called Sparkify to analyze data from their product, a music streaming app. For more informations about the project, click [here](https://github.com/michelmf/data_engineer_nd/tree/master/Data_Modelling_with_PostgreSQL).
 
