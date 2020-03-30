@@ -1,4 +1,4 @@
-# Udacity's Data Engineer Nanodegree
+# Udacity - Data Engineer Nanodegree
 
 In this course, students learn how to design data models, build data warehouses and data lakes, automate data pipelines, and work with massive datasets. At the end of the program, students must combine these new skills by completing a capstone project.
 
