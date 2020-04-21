@@ -1,6 +1,6 @@
 # Data Warehouses on AWS
 
-This is the third project of the Data Engineer Nanodegree. In this project, students have to develop a data warehouse solution on Amazon Web Services Cloud. During the developmento of the project, student have opportunity to practice the following concepts and technologies:
+This is the third project of the Data Engineer Nanodegree. In this project, students have to develop a data warehouse solution on Amazon Web Services Cloud. During the development of the project, student have opportunity to practice the following concepts and technologies:
 
 * Extract, Transform and Load concepts - ETL
 * Infrastructure as a Code using Boto3 and Python
