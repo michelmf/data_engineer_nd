@@ -7,7 +7,6 @@ Skills Developed:
 * Dimensional Modeling of databases
 * SQL and NoSQL data modeling
 * ETL Techniques and strategies
-* OLAP CUBES
 * Data Flows
 * Python and SQL Programming
 * Creation and Automation of Data Pipeline
@@ -16,7 +15,7 @@ Technologies used in this nanodegree:
 
 * PostgreSQL
 * Apache Cassandra
-* Amazon Web Services (IAM, Redshift, S3, )
+* Amazon Web Services (IAM, EC2, Redshift, S3, ElasticMapReduce, Athena...)
 * Apache Spark using PySpark
 * Airflow
 
@@ -35,7 +34,7 @@ This section have two hands-on projects, where we exercise database modeling, SQ
 
 The first project involves a creation of a PostgreSQL database design to help a fake startup called Sparkify to analyze data from their product, a music streaming app. For more informations about the project, click [here](https://github.com/michelmf/data_engineer_nd/tree/master/Data_Modelling_with_PostgreSQL).
 
-The second project uses a different approach from the first one, where students have to model the app database using NoSQL.  
+The second project uses a different approach from the first one, where students have to model the app database using Cassandra, a NoSQL database.  
 
 ## Section 2 - Cloud Data Warehouses with AWS
 
