@@ -1,6 +1,6 @@
 # Data Pipelines with Airflow
 
-This is the fifth project of the Data Engineer Nanodegree. In this project, students need to implement an end-to-end data pipeline to perform automated and scalable ETL flows using Apache Airflow. At the end of the project, the data pipeline meet at least the criteria below:
+This is the fifth project of the Data Engineer Nanodegree. In this project, students need to implement an end-to-end data pipeline to perform automated and scalable ETL flows using Apache Airflow. At the end of the project, the data pipeline needs to meet at least the criteria below:
 
 1. The data pipeline must run without errors, processing all the expected ETL steps
 2. Creation of custom operators to perform specific tasks
