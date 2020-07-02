@@ -28,7 +28,7 @@ The database schema is the same from the previous projects. Click [here](https:/
 
 The DAG we must create in this project is depicted below. 
 
-![](dag-example.png?raw=True)
+![](https://github.com/michelmf/data_engineer_nd/blob/master/Data_Pipelines_With_Airflow/example-dag.png?raw=true)
 
 The DAG steps in this project are:
 
