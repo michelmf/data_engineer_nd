@@ -28,7 +28,7 @@ The database schema is the same from the previous projects. Click [here](https:/
 
 The DAG we must create in this project is depicted below. 
 
-XXX IMAGEM XXXX
+![](dag-example.png)
 
 The DAG steps in this project are:
 
